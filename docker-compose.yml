@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql
+  adminer:
+    image: adminer
+  front:
+    build: ./frontend
+  api:
+    build: ./api
